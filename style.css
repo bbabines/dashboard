@@ -1,3 +1,8 @@
+:root {
+    display: grid;
+    justify-content: center;
+}
+
 body {
     display: grid;
     grid-template-columns: 1fr 5.5fr;
@@ -6,9 +11,8 @@ body {
     height: 600px;
     background-color: black;
     font-family: 'Roboto', sans-serif;
+
 }
-
-
 
 header {
     background-color: white;
@@ -160,11 +164,66 @@ margin: 10px;
 main {
     background-color: #e2e8f0;
     width: 1000px;
-    height: 500px;
-
+    height: 600px;
 
     grid-row: 2 / -1;
     grid-column: 2 / span 3;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    padding-bottom: 50px;
+}
+
+/* Main Section */
+.right-side-main {
+display: grid;
+margin-right: 25px;
+}
+
+.title {
+    font-weight: bolder;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.section-one, .section-two {
+    border-radius: 10px;
+    font-size: 12px;
+
+}
+
+.site, .community {
+    border-bottom: 1px solid lightgray;
+}
+
+.updated, .site, .community {
+    /* overflow: hidden; */
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.paragraph {
+    color: gray;
+}
+
+.section-one {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 100px);
+
+    
+}
+
+.section-two {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 50px)
 }
 
 aside {
