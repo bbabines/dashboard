@@ -60,9 +60,12 @@ margin-left: 20px;
 }
 
 .profile-image {
-    height: 30px;
+    height: 50px;
     width: 50px;
     border-radius: 20px;
+
+    position: relative;
+    bottom: 10px;
 }
 
 .smaller-font {
