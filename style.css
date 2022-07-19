@@ -11,9 +11,13 @@ body {
     height: 600px;
     background-color: black;
     font-family: 'Roboto', sans-serif;
-
 }
 
+
+
+
+
+/* Header Section */
 header {
     background-color: white;
     width: 1000px;
@@ -27,7 +31,6 @@ header {
     grid-template-columns: 60px repeat(2, 1fr) repeat(3, 100px);
 }
 
-/* Header Section */
 input[type=search] {
     background-color: #e2e8f0;
     height: 30px;
@@ -45,8 +48,6 @@ input[type=search] {
 .bell-icon {
    justify-self: end;
 }
-
-
 
 .bell-icon, .second-thumbnail, .second-name, .search-icon {
     margin: 10px;
@@ -161,6 +162,11 @@ margin: 10px;
 }
 
 
+
+
+
+
+/* Main Section */
 main {
     background-color: #e2e8f0;
     width: 1000px;
@@ -175,7 +181,6 @@ main {
     padding-bottom: 50px;
 }
 
-/* Main Section */
 .right-side-main {
 display: grid;
 margin-right: 25px;
@@ -191,7 +196,6 @@ margin-right: 25px;
 .section-one, .section-two {
     border-radius: 10px;
     font-size: 12px;
-
 }
 
 .site, .community {
@@ -203,11 +207,6 @@ margin-right: 25px;
     margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
-   
-}
-
-.paragraph {
-    color: gray;
 }
 
 .section-one {
@@ -216,16 +215,52 @@ margin-right: 25px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 100px);
 
-    
 }
 
 .section-two {
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 50px)
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(3, 50px);
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-top: 10px;
 }
 
+.paragraph {
+    color: gray;
+}
+
+.pug, .small-cat, .old-man, .young-girl {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.tegan-trending-text {
+    position: relative;
+    right: 15px;
+}
+
+.morgan-trending-text {
+    position: relative;
+    right: 20px;
+}
+
+.kendall-trending-text {
+    position: relative;
+    right: 20px;
+}
+
+.alex-trending-text {
+    position: relative;
+    right: 25px;
+}
+
+
+/* Aside Section */
 aside {
     background-color: #1992d4;
     color:white;
@@ -240,7 +275,6 @@ aside {
     grid-template-columns: 1fr 3fr;
 }
 
-/* Aside Section */
 .dashboard, #dashboard-icon {
 margin-top: 10px;
 }
