@@ -47,6 +47,7 @@ input[type=search] {
 
 .bell-icon {
    justify-self: end;
+   border-radius: 40px;
 }
 
 .bell-icon, .second-thumbnail, .second-name, .search-icon {
@@ -62,6 +63,7 @@ margin-left: 20px;
     width: 20px;
     justify-self: center;
     align-self: center;
+    border-radius: 10px;
 }
 
 .profile-image {
@@ -166,7 +168,7 @@ margin: 10px;
 
 
 
-/* Main Section */
+/* RIGHT-SIDE Main Section */
 main {
     background-color: #e2e8f0;
     width: 1000px;
@@ -203,7 +205,6 @@ margin-right: 25px;
 }
 
 .updated, .site, .community {
-    /* overflow: hidden; */
     margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
@@ -260,6 +261,37 @@ margin-right: 25px;
 }
 
 
+/* LEFT-SIDE Main Section */
+.left-side-main {
+    background-color: #e2e8f0;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 17px;
+    
+}
+
+.left-side-grid {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 190px);
+    gap: 10px;
+
+    border-radius: 10px;
+}
+
+.super-cool-project, .less-cool-project, .impossible-app, .easy-peasy-app, .ad-blocker, .money-maker {
+    background-color: white;
+    border-radius: 10px;
+    border-left: 6px solid #f0b429;
+}
+
+.star, .eye, .fork {
+    height: 20px;
+    width: 20px;
+}
+
+
 /* Aside Section */
 aside {
     background-color: #1992d4;
@@ -293,3 +325,31 @@ bottom: 5px;
     font-weight: bold;
 }
 
+
+
+/* Styling Effects */
+img:hover {
+    border: solid 1px black;
+    color: black;
+}
+
+.new:hover , .upload:hover , .share:hover  {
+    border: solid 1px black;
+    color: black;
+}
+
+.intro:hover, .second-name:hover {
+    color: blue;
+}
+
+.home:hover, .profile:hover, .messages:hover, .history:hover, .tasks:hover, .communities:hover, .settings:hover, .support:hover, .privacy:hover {
+    color: black;
+}
+
+.tegan-trending-text:hover, .morgan-trending-text:hover, .kendall-trending-text:hover, .alex-trending-text:hover  {
+    color: blue;
+}
+
+.site:hover, .updated:hover, .community:hover {
+    color: blue;
+}
