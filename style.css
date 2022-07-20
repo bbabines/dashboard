@@ -277,7 +277,85 @@ margin-right: 25px;
     grid-template-rows: repeat(3, 190px);
     gap: 10px;
 
-    border-radius: 10px;
+}
+
+.super-cool-project, .less-cool-project, .impossible-app, .easy-peasy-app, .ad-blocker, .money-maker {
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: 1.5fr 1fr; */
+    /* align-items: end; */
+    padding-top: 20px;
+   
+}
+
+.left-main-title {
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.left-side-icons {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 25px;
+    /* margin-bottom: 15px; */
+    /* margin-top: 30px; */
+}
+
+.left-side-icons-1 {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+.left-side-icons-2 {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.left-side-icons-3 {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+.left-side-icons-4 {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.left-side-icons-5 {
+    /* display: flex; */
+    justify-content: flex-end;
+
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.left-side-icons-6 {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.left-main-paragraph {
+    color:gray;
+    display: grid;
+    align-self: initial;
+    margin-left: 10px;
 }
 
 .super-cool-project, .less-cool-project, .impossible-app, .easy-peasy-app, .ad-blocker, .money-maker {
@@ -290,6 +368,7 @@ margin-right: 25px;
     height: 20px;
     width: 20px;
 }
+
 
 
 /* Aside Section */
